@@ -11,48 +11,48 @@ Here we are monitoring heart rate in real-time using a webcam.This is based on a
 6. Measurement: Extract the amplified signal and estimate the heart rate in beats per minute (bpm) using appropriate signal processing techniques.
 7. Visualize Results: Utilize CVZone LivePlot or similar tools to visualize the heart rate estimation results.
 
-                                                                    ┌───────────────────┐
-                                                                    │       Input       │
-                                                                    │   Webcam Video    │
-                                                                    └───────────────────┘
-                                                                             │
-                                                                             v
-                                                                    ┌───────────────────┐
-                                                                    │   Preprocessing   │
-                                                                    │   Face Region     │
-                                                                    │    Detection      │
-                                                                    └───────────────────┘
-                                                                             │
-                                                                             v
-                                                                    ┌───────────────────┐
-                                                                    │    Spatial        │
-                                                                    │  Decomposition    │
-                                                                    └───────────────────┘
-                                                                             │
-                                                                             v
-                                                                    ┌───────────────────┐
-                                                                    │    Temporal       │
-                                                                    │   Filtering       │
-                                                                    └───────────────────┘
-                                                                             │
-                                                                             v
-                                                                    ┌───────────────────┐
-                                                                    │   Magnification   │
-                                                                    └───────────────────┘
-                                                                             │
-                                                                             v
-                                                                    ┌───────────────────┐
-                                                                    │    Measurement    │
-                                                                    │   Heart Rate      │
-                                                                    │   Estimation      │
-                                                                    └───────────────────┘
-                                                                             │
-                                                                             v
-                                                                    ┌───────────────────┐
-                                                                    │    Visualize      │
-                                                                    │    Results        │
-                                                                    │   CVZone LivePlot │
-                                                                    └───────────────────┘
+                                              ┌───────────────────┐
+                                              │       Input       │
+                                              │   Webcam Video    │
+                                              └───────────────────┘
+                                                       │
+                                                       v
+                                              ┌───────────────────┐
+                                              │   Preprocessing   │
+                                              │   Face Region     │
+                                              │    Detection      │
+                                              └───────────────────┘
+                                                       │
+                                                       v
+                                              ┌───────────────────┐
+                                              │    Spatial        │
+                                              │  Decomposition    │
+                                              └───────────────────┘
+                                                       │
+                                                       v
+                                              ┌───────────────────┐
+                                              │    Temporal       │
+                                              │   Filtering       │
+                                              └───────────────────┘
+                                                       │
+                                                       v
+                                              ┌───────────────────┐
+                                              │   Magnification   │
+                                              └───────────────────┘
+                                                       │
+                                                       v
+                                              ┌───────────────────┐
+                                              │    Measurement    │
+                                              │   Heart Rate      │
+                                              │   Estimation      │
+                                              └───────────────────┘
+                                                       │
+                                                       v
+                                              ┌───────────────────┐
+                                              │    Visualize      │
+                                              │    Results        │
+                                              │   CVZone LivePlot │
+                                              └───────────────────┘
 
 Demonstration Video
 https://www.youtube.com/watch?v=jHzfoeVEXHA&ab_channel=Pamudu123Ranasinghe
